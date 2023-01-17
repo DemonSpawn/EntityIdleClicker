@@ -8,8 +8,6 @@ namespace EntityIdleClicker
 
         BigInteger Count { get; set; }
 
-        int GenerationBase { get; set; }
-
-        int UpgradeCostBase { get; set; }
+        BigInteger Generates { get; set; }
     }
 }

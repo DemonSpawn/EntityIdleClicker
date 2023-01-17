@@ -50,9 +50,9 @@ namespace EntityIdleClicker
             
         }
 
-        private IEntity AddCount(IEntity entity, BigInteger count)
+        private BigInteger AddCount(IEntity entity, BigInteger count)
         {
-            
+            return entity.Count += count;
         }
     }
 }
